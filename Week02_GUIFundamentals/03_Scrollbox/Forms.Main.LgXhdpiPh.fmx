@@ -1,0 +1,17 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited VertScrollBox1: TVertScrollBox
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    Viewport.Width = 450.000000000000000000
+    Viewport.Height = 695.000000000000000000
+    inherited Layout1: TLayout
+      Size.Width = 450.000000000000000000
+    end
+    inherited Layout2: TLayout
+      Size.Width = 450.000000000000000000
+    end
+  end
+end

@@ -1,0 +1,119 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object FloatAnimation1: TFloatAnimation
+    Enabled = True
+    Duration = 10.000000000000000000
+    PropertyName = 'MyValue'
+    StartValue = 0.000000000000000000
+    StopValue = 100.000000000000000000
+  end
+  object Text1: TText
+    Position.X = 88.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 241.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+  end
+  object Rectangle1: TRectangle
+    Position.X = 88.000000000000000000
+    Position.Y = 136.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object FloatAnimation2: TFloatAnimation
+      AnimationType = InOut
+      Enabled = True
+      Duration = 5.000000000000000000
+      Interpolation = Bounce
+      PropertyName = 'Height'
+      StartValue = 0.000000000000000000
+      StartFromCurrent = True
+      StopValue = 100.000000000000000000
+    end
+    object ColorAnimation1: TColorAnimation
+      AnimationType = InOut
+      AutoReverse = True
+      Enabled = True
+      Duration = 2.000000000000000000
+      Interpolation = Circular
+      Loop = True
+      PropertyName = 'Fill.Color'
+      StartValue = claWhite
+      StopValue = claRoyalblue
+    end
+  end
+  object Rectangle2: TRectangle
+    Fill.Color = claCornflowerblue
+    Position.X = 296.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 225.000000000000000000
+    Size.PlatformDefault = False
+    object Rectangle3: TRectangle
+      Align = Client
+      Fill.Color = claCoral
+      Size.Width = 257.000000000000000000
+      Size.Height = 225.000000000000000000
+      Size.PlatformDefault = False
+      object RectAnimation1: TRectAnimation
+        AnimationType = InOut
+        AutoReverse = True
+        Enabled = True
+        Delay = 2.000000000000000000
+        Duration = 2.000000000000000000
+        Interpolation = Bounce
+        Loop = True
+        PropertyName = 'Margins'
+        StopValue.Left = 20.000000000000000000
+        StopValue.Top = 50.000000000000000000
+        StopValue.Right = 20.000000000000000000
+        StopValue.Bottom = 20.000000000000000000
+      end
+    end
+  end
+  object Circle1: TCircle
+    Fill.Color = claBlueviolet
+    Position.X = 280.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object PathAnimation1: TPathAnimation
+      AutoReverse = True
+      Enabled = True
+      Duration = 5.000000000000000000
+      Loop = True
+      Path.Path = {
+        0A000000000000000000000000000000020000000000C8C20000000002000000
+        0000C8C20000C84202000000000000000000C842020000000000C8420000C842
+        020000000000C84200004843020000000000000000004843020000000000C8C2
+        00004843020000000000C8C200009643020000000000000000009643}
+    end
+  end
+  object PathAnimation2: TPathAnimation
+    Duration = 0.200000002980232200
+  end
+  object Button1: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 408.000000000000000000
+    TabOrder = 4
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object Rectangle4: TRectangle
+    Position.X = 128.000000000000000000
+    Position.Y = 408.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

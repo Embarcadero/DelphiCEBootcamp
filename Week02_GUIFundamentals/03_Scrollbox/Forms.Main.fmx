@@ -1,0 +1,65 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 400
+  ClientWidth = 300
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object VertScrollBox1: TVertScrollBox
+    Align = Client
+    Size.Width = 300.000000000000000000
+    Size.Height = 400.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 284.000000000000000000
+    Viewport.Height = 400.000000000000000000
+    object Layout1: TLayout
+      Align = Top
+      Size.Width = 284.000000000000000000
+      Size.Height = 250.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Rectangle1: TRectangle
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle2: TRectangle
+        Anchors = [akRight, akBottom]
+        Position.X = 227.000000000000000000
+        Position.Y = 193.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Layout2: TLayout
+      Align = Top
+      Position.Y = 250.000000000000000000
+      Size.Width = 284.000000000000000000
+      Size.Height = 250.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Rectangle3: TRectangle
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle4: TRectangle
+        Anchors = [akRight, akBottom]
+        Position.X = 227.000000000000000000
+        Position.Y = 193.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+end

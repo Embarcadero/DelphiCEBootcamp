@@ -1,0 +1,96 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 24.000000000000000000
+    Position.Y = 24.000000000000000000
+    object ShadowEffect1: TShadowEffect
+      Distance = 5.000000000000000000
+      Direction = 30.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.800000011920929000
+      ShadowColor = claCornflowerblue
+    end
+  end
+  object Button1: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 56.000000000000000000
+    TabOrder = 2
+    Text = 'Button1'
+    object BlurEffect1: TBlurEffect
+      Softness = 0.300000011920929000
+    end
+  end
+  object CheckBox1: TCheckBox
+    Position.X = 24.000000000000000000
+    Position.Y = 96.000000000000000000
+    TabOrder = 3
+    Text = 'CheckBox1'
+    object GlowEffect1: TGlowEffect
+      Softness = 0.500000000000000000
+      GlowColor = claDarkred
+      Opacity = 0.899999976158142100
+    end
+  end
+  object Rectangle1: TRectangle
+    Position.X = 264.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object SepiaEffect1: TSepiaEffect
+      Amount = 0.500000000000000000
+    end
+  end
+  object Circle1: TCircle
+    Position.X = 384.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+    object ReflectionEffect1: TReflectionEffect
+      Opacity = 0.500000000000000000
+      Offset = 0
+      Length = 0.500000000000000000
+    end
+  end
+  object Layout1: TLayout
+    Position.X = 24.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 369.000000000000000000
+    Size.Height = 241.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object Rectangle2: TRectangle
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Button2: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 80.000000000000000000
+      TabOrder = 1
+      Text = 'Button2'
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 2
+      Position.X = 16.000000000000000000
+      Position.Y = 112.000000000000000000
+    end
+    object SepiaEffect2: TSepiaEffect
+      Amount = 0.500000000000000000
+    end
+  end
+end

@@ -1,0 +1,22 @@
+inherited Form1_Windows: TForm1_Windows
+  DesignerMasterStyle = 0
+  inherited ToolBar1: TToolBar
+    inherited Button2: TButton
+      Position.X = 488.000000000000000000
+      Size.Width = 106.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Win Action1'
+    end
+  end
+  inherited Layout1: TLayout
+    Visible = False
+  end
+  inherited MultiView1: TMultiView
+    Size.Width = 250.000000000000000000
+    Size.Height = 50.000000000000000000
+    inherited ListBox1: TListBox
+      Viewport.Width = 197.000000000000000000
+      Viewport.Height = 412.000000000000000000
+    end
+  end
+end

@@ -1,0 +1,87 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 552
+  ClientWidth = 416
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 416.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object TitleText: TText
+      Align = Contents
+      HitTest = False
+      Size.Width = 416.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Hello, World!'
+    end
+    object Button1: TButton
+      Align = Left
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'actiontoolbutton'
+      TabOrder = 1
+      Text = 'Button1'
+    end
+    object Button2: TButton
+      Align = Right
+      Position.X = 368.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'drawertoolbutton'
+      TabOrder = 3
+      Text = 'Button2'
+    end
+  end
+  object DetailRectangle: TRectangle
+    Align = Client
+    Fill.Color = claBlueviolet
+    Size.Width = 416.000000000000000000
+    Size.Height = 504.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claBlue
+    Stroke.Thickness = 10.000000000000000000
+  end
+  object MultiView1: TMultiView
+    TargetControl = DetailRectangle
+    DrawerOptions.Placement = Right
+    DrawerOptions.Mode = PushingDetailView
+    MasterButton = Button2
+    Mode = Drawer
+    Size.Width = 250.000000000000000000
+    Size.Height = 504.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 2
+    object Rectangle1: TRectangle
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Circle1: TCircle
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 125.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end
